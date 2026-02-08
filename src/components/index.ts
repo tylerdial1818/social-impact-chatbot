@@ -1,0 +1,1 @@
+export { ChatInterface as default } from './ChatInterface';
