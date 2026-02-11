@@ -1,8 +1,8 @@
 # Social Impact Project Planner
 
 A production-ready RAG-powered chatbot that helps users design rigorous social impact projects grounded in established program evaluation literature.
+<img width="921" height="490" alt="Screenshot 2026-02-11 at 4 37 46 PM" src="https://github.com/user-attachments/assets/6bf1956f-b314-4eb4-9ab9-468ba07427b4" />
 
-![Social Impact Chatbot](https://via.placeholder.com/1200x600/166534/ffffff?text=Social+Impact+Project+Planner)
 
 ## Features
 
