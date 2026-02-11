@@ -4,7 +4,7 @@ A production-ready RAG-powered chatbot that helps users design rigorous social i
 
 ![Social Impact Chatbot](https://via.placeholder.com/1200x600/166534/ffffff?text=Social+Impact+Project+Planner)
 
-## 🌟 Features
+## Features
 
 - **AI-Powered Guidance**: Get intelligent recommendations for your social impact programs
 - **Evidence-Based Responses**: All recommendations grounded in peer-reviewed literature
@@ -13,7 +13,7 @@ A production-ready RAG-powered chatbot that helps users design rigorous social i
 - **Conversational Memory**: Maintains context throughout your planning session
 - **Modern UI**: Clean, accessible interface built with React and Tailwind CSS
 
-## 📚 About the Project
+## About the Project
 
 This chatbot was developed for MSDS453: Natural Language Processing at Northwestern University. It helps social impact practitioners:
 
@@ -30,7 +30,7 @@ The chatbot is grounded in curated academic literature including works on:
 - Aid effectiveness (Guerrero, 2021; Riddell, 2007)
 - Education and development (Hannum, 2003)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to see the application.
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -95,7 +95,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see the application.
 - **ML/AI**: LangChain, OpenAI API (or OpenRouter)
 - **Deployment**: Vercel (recommended), Docker
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 social-impact-chatbot/
@@ -122,7 +122,7 @@ social-impact-chatbot/
 └── next.config.js
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -146,7 +146,7 @@ To add new documents to the knowledge base:
    npm run index:corpus
    ```
 
-## 🎨 User Flow
+## User Flow
 
 1. **Landing Page**: User learns about the chatbot's capabilities
 2. **Chat Interface**: User describes their social impact project or asks questions
@@ -154,7 +154,7 @@ To add new documents to the knowledge base:
 4. **LLM Generation**: System generates structured response with citations
 5. **Iterative Refinement**: User can ask follow-up questions to refine their approach
 
-## 📊 Success Metrics
+## Success Metrics
 
 | Metric | Target | Current |
 |--------|--------|---------|
@@ -163,7 +163,7 @@ To add new documents to the knowledge base:
 | Source citations per response | 2+ | 1.8 avg |
 | Unique sources per query | 2+ | 1.4 avg |
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run unit tests
@@ -173,9 +173,9 @@ npm test
 npm run test:e2e
 ```
 
-## 🚢 Deployment
+## Deployment
 
-### Vercel (Recommended)
+### Vercel
 
 ```bash
 # Install Vercel CLI
@@ -205,14 +205,7 @@ NODE_ENV=production
 NEXT_PUBLIC_APP_URL=https://your-domain.com
 ```
 
-## 🔐 Security Considerations
-
-- Never commit `.env.local` to version control
-- Rotate API keys regularly
-- Consider rate limiting for production use
-- Implement user authentication if needed
-
-## 📈 Future Improvements
+## Future Improvements
 
 - [ ] User authentication and saved sessions
 - [ ] Export functionality (PDF, Markdown)
@@ -221,11 +214,11 @@ NEXT_PUBLIC_APP_URL=https://your-domain.com
 - [ ] Integration with project management tools
 - [ ] Mobile app (React Native)
 
-## 📄 License
+## License
 
 MIT License - See [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Northwestern University MSDS453 course
 - OpenAI for API access
@@ -234,4 +227,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-Built with ❤️ for social good
+Built with ❤️ for social good practitioners
